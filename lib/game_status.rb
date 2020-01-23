@@ -5,14 +5,14 @@ end
 
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [
-  [0, 1, 2],
-  [3, 4, 5],
-  [6, 7, 8],
-  [0, 3, 6],
-  [1, 4, 7],
-  [2, 5, 8],
-  [0, 4, 8],
-  [6, 4, 2]
+  [0, 1, 2], #first horizontal WIN_COMBINATION
+  [3, 4, 5], #second 
+  [6, 7, 8], #third 
+  [0, 3, 6], #first vertical WIN_COMBINATION
+  [1, 4, 7], #second
+  [2, 5, 8], #third
+  [0, 4, 8], #first diagonal WIN_COMBINATION
+  [6, 4, 2]  #second
 ]
 
 def won?(board)
