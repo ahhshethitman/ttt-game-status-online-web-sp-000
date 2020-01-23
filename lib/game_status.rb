@@ -16,10 +16,10 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.each {|win_combo|
-    index_1 = win_combination[0] #this will compare win combinations to the board that is being played
+  WIN_COMBINATIONS.each {|win_combination| #creates new variable to iterate through the constant
+    index_1 = win_combination[0] #grabs the index of a winning combination and stores in new array
     index_2 = win_combination[1]
-    index_3 = win_combo[2]
+    index_3 = win_combination[2]
 
     position_1 = board[index_0]
     position_2 = board[index_1]
